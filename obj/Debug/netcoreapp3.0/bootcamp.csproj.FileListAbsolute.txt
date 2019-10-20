@@ -1,0 +1,11 @@
+C:\grad_bootcamp\bootcamp\bin\Debug\netcoreapp3.0\bootcamp.exe
+C:\grad_bootcamp\bootcamp\bin\Debug\netcoreapp3.0\bootcamp.deps.json
+C:\grad_bootcamp\bootcamp\bin\Debug\netcoreapp3.0\bootcamp.runtimeconfig.json
+C:\grad_bootcamp\bootcamp\bin\Debug\netcoreapp3.0\bootcamp.runtimeconfig.dev.json
+C:\grad_bootcamp\bootcamp\bin\Debug\netcoreapp3.0\bootcamp.dll
+C:\grad_bootcamp\bootcamp\bin\Debug\netcoreapp3.0\bootcamp.pdb
+C:\grad_bootcamp\bootcamp\obj\Debug\netcoreapp3.0\bootcamp.csprojAssemblyReference.cache
+C:\grad_bootcamp\bootcamp\obj\Debug\netcoreapp3.0\bootcamp.AssemblyInfoInputs.cache
+C:\grad_bootcamp\bootcamp\obj\Debug\netcoreapp3.0\bootcamp.AssemblyInfo.cs
+C:\grad_bootcamp\bootcamp\obj\Debug\netcoreapp3.0\bootcamp.dll
+C:\grad_bootcamp\bootcamp\obj\Debug\netcoreapp3.0\bootcamp.pdb

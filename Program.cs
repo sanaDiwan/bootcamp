@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace bootcamp
+﻿namespace bootcamp
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var makeAnInstanceOfMe = new MakeAnInstanceOfMe();
         }
     }
 }
