@@ -10,24 +10,17 @@ namespace bootcamp
             //setup our DI
             var serviceProvider = new ServiceCollection()
                 .AddSingleton<IMakeAnInstanceOfMe, MakeAnInstanceOfMe>()
+                .AddSingleton<IWithConstructionParameters, WithConstructionParameters>()
                 .BuildServiceProvider();
 
             //do the actual work here
             var makeAnInstanceOfMe = serviceProvider.GetService<IMakeAnInstanceOfMe>();
             makeAnInstanceOfMe.sayHello();
-        }
-    }
 
-    public class MakeAnInstanceOfMe: IMakeAnInstanceOfMe
-    {
-        public void sayHello()
-        {
-            Console.WriteLine("Hello World!");
+            var withConstructionParameters = serviceProvider.GetService<IWithConstructionParameters>();
+            Console.WriteLine("Enter a number: ");
+            var param = Convert.ToInt32(Console.ReadLine());
+            withConstructionParameters.displayNumber(param);
         }
-    }
-
-    public interface IMakeAnInstanceOfMe
-    {
-        void sayHello();
     }
 }
